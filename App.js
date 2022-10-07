@@ -80,7 +80,7 @@ export default function App() {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.btn} onPress={limpar}>
-                    <Text style={styles.btnTexto}>LIMPAR</Text>
+                    <Text style={styles.btnTexto}>PARAR</Text>
                 </TouchableOpacity>
             </View>
 
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#00aeef'
+        backgroundColor: '#5e5e5e'
     },
     timer: {
         marginTop: - 160,
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     btnTexto: {
         fontSize: 20,
         fontWeight: 'bold',
-        color: '#00aeef'
+        color: '#5e5e5e'
     },
     areaUltima: {
         marginTop: 40,
